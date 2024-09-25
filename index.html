@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Js-Quiz</p>
+                <p class="sub-title">Daily Quiz to test your JavaScript Knowledge</p>
+            </div>
+            <div class="result hide">
+                <p class="score"></p>
+                <p class="reload">
+                    <button onclick="document.location.reload(true)">Try again?</button>
+                </p>
+            </div>
+            <form class="quiz-form">
+                <div class="question">
+                    <p class="q1">1. What is the result of typeof null in JavaScript? </p>
+                    <div class="option">
+                        <input type="radio" name="q1" id="" value="A">
+                        <label for="">"null"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="" value="B">
+                        <label for="">"undefined"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="" value="C">
+                        <label for="">"object"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" id="" value="D">
+                        <label for="">"number"</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p class="q2">2. Which method is used to add one or more elements to the end of an array and returns the new length of the array? </p>
+                    <div class="option">
+                        <input type="radio" name="q2" id="" value="A">
+                        <label for="">push()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="" value="B">
+                        <label for="">pop()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="" value="C">
+                        <label for="">shift()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" id="" value="D">
+                        <label for="">unshift()</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p class="q3">3. What will be the result of concatenating a number with a string in JavaScript? </p>
+                    <div class="option">
+                        <input type="radio" name="q3" id="" value="A">
+                        <label for="">It throws an error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="" value="B">
+                        <label for="">It adds the number to the string as a string</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="" value="C">
+                        <label for="">It adds the number to the string as a number</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" id="" value="D">
+                        <label for="">It returns NaN</label>
+                    </div>
+                </div>
+                <div class="question ">
+                    <p class="q4">4. What is the purpose of the Array.prototype.map() method in JavaScript? </p>
+                    <div class="option">
+                        <input type="radio" name="q4" id="" value="A">
+                        <label for="">To filter elements from an array</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="" value="B">
+                        <label for="">To find an element in an array</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="" value="C">
+                        <label for="">To transform elements in an array and return a new array</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" id="" value="D">
+                        <label for="">To sort elements in an array</label>
+                    </div>
+                </div>
+                <div class="question ">
+                    <p class="q4">5. How do you write a single-line comment in JavaScript? </p>
+                    <div class="option">
+                        <input type="radio" name="q5" id="" value="A">
+                        <label for="">&lt; !-- This is a comment --&gt;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="" value="B">
+                        <label for="">// This is a comment</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="" value="C">
+                        <label for=""># This is a comment</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" id="" value="D">
+                        <label for="">/* This is a comment */</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
